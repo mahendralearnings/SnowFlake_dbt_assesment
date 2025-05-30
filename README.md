@@ -7,7 +7,7 @@ This project demonstrates an end-to-end data engineering solution using **Snowfl
 - JSON ingestion and parsing with `VARIANT` columns
 - Data flattening using dbt staging models
 - Pilot SCD2 tracking using `dbt snapshot`
-- Latest weather data join using `ROW_NUMBER()` + `QUALIFY`
+- Latest weather data join using `ROW_NUMBER()` 
 - Final views for different access levels (masked/unmasked)
 
 ## 🧱 Data Model Layers
