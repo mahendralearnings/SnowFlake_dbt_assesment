@@ -1,15 +1,30 @@
-Welcome to your new dbt project!
+# Snowflake + DBT Assessment
 
-### Using the starter project
+This project demonstrates a complete data pipeline using Snowflake and dbt to fulfill a real-world data engineering use case.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## ✅ Project Structure
 
+- **Raw Layer**: JSON files ingested as VARIANT columns
+- **Staging Layer**: Flattened models for Landing, Weather, Pilot, Airport
+- **Intermediate Layer**: `fact_landing_with_weather` joins latest weather per flight
+- **Snapshot Layer**: `pilot_snapshot` tracks historical pilot changes (SCD2)
+- **Final Views**:
+  - `final_unmasked_landing`: PII available
+  - `final_masked_landing`: PII hidden
+  - `dim_current_pilot`: current snapshot version only
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## 📦 Tools Used
+
+- Snowflake (Free Trial)
+- dbt (CLI, open source)
+- Git / GitHub
+
+## 🛠 How to Run
+
+1. Clone the repo
+2. Set up your Snowflake credentials in `profiles.yml`
+3. Run the following:
+```bash
+dbt deps
+dbt run
+dbt snapshot
