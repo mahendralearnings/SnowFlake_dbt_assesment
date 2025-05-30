@@ -1,0 +1,68 @@
+
+version: 2
+sources:
+  - name: raw
+    description: "Raw data source for the project"
+    database: interview_db
+    schema: raw
+    tables:
+      - name: airport_json
+      - name: landing_json
+      - name: weather_json
+      - name: pilot_json
+
+models:
+  - name: stg_airport
+    description: "Flattened airport data"
+    columns:
+      - name: airport_code
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_landing
+    description: "Flattened landing data"
+    columns:
+      - name: flight
+        tests:
+          - not_null
+
+  - name: stg_weather
+    description: "Flattened weather data"
+    columns:
+      - name: ts
+        tests:
+          - not_null
+
+  - name: stg_pilot
+    description: "Flattened pilot data"
+    columns:
+      - name: pilot_id
+        tests:
+          - not_null
+          - unique
+
+
+
+version: 2
+
+models:
+  - name: final_unmasked_landing
+    description: "Final enriched landing data with PII for internal users"
+    columns:
+      - name: flight
+        description: "Flight identifier"
+        tests:
+          - not_null
+      - name: grade
+        description: "Pilot training grade"
+        tests:
+          - not_null
+
+  - name: final_masked_landing
+    description: "Final landing data for external/reporting use with masked fields"
+    columns:
+      - name: flight
+        tests:
+          - not_null
+

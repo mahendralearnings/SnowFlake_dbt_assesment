@@ -1,0 +1,30 @@
+name: 'snowflake_interview_project'
+version: '1.0.0'
+
+profile: 'snowflake_interview_project'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  snowflake_interview_project:
+    # Example models
+    
+    # Staging and intermediate layers
+    staging:
+      +materialized: view
+
+    intermediate:
+      +materialized: view
+
+snapshots:
+  snowflake_interview_project:
+    +target_schema: raw

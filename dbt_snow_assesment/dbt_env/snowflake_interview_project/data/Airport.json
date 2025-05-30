@@ -1,0 +1,27 @@
+[
+    {
+      "airportCode": "LHR",
+      "AirportFriendlyName": "London Heathrow",
+      "Latitude": 51.470020,
+      "Longitude": -0.454295
+    },
+    {
+      "airportCode": "MAN",
+      "AirportFriendlyName": "Manchester",
+      "Latitude": 53.365820,
+      "Longitude": -2.272950
+    },
+    {
+      "airportCode": "BHX",
+      "AirportFriendlyName": "Birmingham",
+      "Latitude": 52.453850,
+      "Longitude": -1.748030
+    },
+    {
+      "airportCode": "GLA",
+      "AirportFriendlyName": "Glasgow",
+      "Latitude": 55.871940,
+      "Longitude": -4.433100
+    }
+  ]
+  

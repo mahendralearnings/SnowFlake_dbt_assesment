@@ -1,0 +1,242 @@
+[
+  {
+    "ts": "2025-01-31T06:00:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T06:05:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T06:10:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T06:15:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T06:20:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T06:25:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T06:30:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T06:35:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T06:40:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T06:45:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T06:50:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T06:55:00Z",
+    "airportCode": "LHR",
+    "temperature": "1"
+  },
+  {
+    "ts": "2025-01-31T07:00:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T07:05:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T07:10:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T07:15:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T07:20:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T07:25:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T07:30:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T07:35:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T07:40:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T07:45:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T07:50:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T07:55:00Z",
+    "airportCode": "LHR",
+    "temperature": "2"
+  },
+  {
+    "ts": "2025-01-31T08:00:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T08:05:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T08:10:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T08:15:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T08:20:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T08:25:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T08:30:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T08:35:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T08:40:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T08:45:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T08:50:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T08:55:00Z",
+    "airportCode": "LHR",
+    "temperature": "3"
+  },
+  {
+    "ts": "2025-01-31T09:00:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  },
+  {
+    "ts": "2025-01-31T09:05:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  },
+  {
+    "ts": "2025-01-31T09:10:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  },
+  {
+    "ts": "2025-01-31T09:15:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  },
+  {
+    "ts": "2025-01-31T09:20:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  },
+  {
+    "ts": "2025-01-31T09:25:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  },
+  {
+    "ts": "2025-01-31T09:30:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  },
+  {
+    "ts": "2025-01-31T09:35:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  },
+  {
+    "ts": "2025-01-31T09:40:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  },
+  {
+    "ts": "2025-01-31T09:45:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  },
+  {
+    "ts": "2025-01-31T09:50:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  },
+  {
+    "ts": "2025-01-31T09:55:00Z",
+    "airportCode": "LHR",
+    "temperature": "4"
+  }
+]

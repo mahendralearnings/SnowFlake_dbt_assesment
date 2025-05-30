@@ -1,0 +1,39 @@
+[
+    {
+      "flight": "BA551",
+      "callsign":"BAW551",
+      "model": "Airbus A320-232",
+      "tail": "G-EUUY",
+      "touchdown_time": "2025-01-31T07:30:00Z",
+      "pilotId": 1,
+      "airportCode": "LHR"
+    },
+    {
+      "flight": "VS342",
+      "callsign":"VIR342",
+      "model": "Boeing 787-9",
+      "tail": "G-VNEW",
+      "touchdown_time": "2025-01-31T08:15:00Z",
+      "pilotId": 2,
+      "airportCode": "MAN"
+    },
+    {
+      "flight": "UA958",
+      "callsign":"UAL958",
+      "model": "Boeing 767-300",
+      "tail": "N670UA",
+      "touchdown_time": "2025-01-31T08:45:00Z",
+      "pilotId": 3,
+      "airportCode": "BHX"
+    },
+    {
+      "flight": "FR667",
+      "callsign":"RYR667",
+      "model": "Boeing 737-800",
+      "tail": "EI-DCL",
+      "touchdown_time": "2025-01-31T09:00:00Z",
+      "pilotId": 4,
+      "airportCode": "GLA"
+    }
+  ]
+  
